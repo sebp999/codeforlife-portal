@@ -112,6 +112,7 @@ SETTINGS = {
         "django.middleware.clickjacking.XFrameOptionsMiddleware",
         "deploy.middleware.exceptionlogging.ExceptionLoggingMiddleware",
         "django_otp.middleware.OTPMiddleware",
+        "csp.middleware.CSPMiddleware",
     ],
     "TEMPLATES": [
         {

@@ -79,6 +79,8 @@ PIPELINE_ENABLED = False
 
 SECURE_CONTENT_TYPE_NOSNIFF = True
 
+CSP_REPORT_ONLY = True
+
 try:
     from example_project.local_settings import *  # pylint: disable=E0611
 except ImportError:
