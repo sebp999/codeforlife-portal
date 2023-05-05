@@ -2,7 +2,7 @@
 
 from .app_settings import domain, MODULE_NAME
 
-CSP_DEFAULT_SRC = ("self",)
+CSP_DEFAULT_SRC = ("'self'",)
 CSP_CONNECT_SRC = (
     "'self'",
     "https://*.onetrust.com/",
@@ -30,6 +30,7 @@ CSP_SCRIPT_SRC = (
     "https://code.iconify.design/2/2.0.3/iconify.min.js",
     "https://www.googletagmanager.com/gtm.js",
     "https://cdn.mouseflow.com/",
+    "http://cdn.mouseflow.com/",
     "https://www.google-analytics.com/analytics.js",
     "https://www.recaptcha.net/",
     "https://www.google.com/recaptcha/",
